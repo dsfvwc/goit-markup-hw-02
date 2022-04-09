@@ -1,0 +1,215 @@
+:root {
+--primary-text-color: #212121;
+--accent-text-color:#2196F3;
+--basic-text-color:#757575;
+--primary-light-color:#FFFFFF;
+--primary-dark-color:#000000;
+--background-color-footer: #2F303A;
+--background-color-section: #F5F4FA;
+--background-color-filter: #F5F4FA;
+}
+
+body {
+    font-family: "Roboto", Tahoma, sans-serif;
+    color: var(--primary-text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link-current {
+    color: var(--accent-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.header-color {
+    background-color: var(--primary-light-color);
+}
+
+.footer-color {
+    background-color: var(--background-color-footer);
+}
+
+.header-link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.header-email, 
+.header-tel {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--basic-text-color);
+}
+
+.header-link:hover, 
+.header-email:hover, 
+.header-email:hover,
+.header-tel:hover,
+.header-link:focus,
+.header-tel:focus {
+color: var(--accent-text-color);
+}
+
+.filter-link:hover {
+    color: var(--primary-light-color);
+    background-color: var(--accent-text-color);
+}
+
+.filter-text {
+    background-color: var(--background-color-filter);
+}
+
+.background-color-first-main-part {
+    background-color: var(--background-color-footer);
+}
+
+.header-btn {
+    background-color: var(--accent-text-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-light-color);
+}
+
+.main-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-light-color);
+}
+
+.third-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.text,
+.footer-address,
+.footer-contacts {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.text {
+    color: var(--basic-text-color);
+}
+
+.footer-address {
+    color: var(--primary-light-color);
+}
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.second-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.second-title-portfolio {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.third-title-portfolio {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--basic-text-color);
+}
+
+.surname {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.position {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--basic-text-color);
+}
+
+.web-logo-color {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+
+.web-studio-color {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header-web-studio-color {
+    color: var(--primary-dark-color);
+}
+
+.footer-web-studio-color {
+    color: var(--primary-light-color);
+}
+
+.third-section-background-color {
+    background-color: var(--background-color-section);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.site-nav .link.current{
+    color: var(--accent-text-color);
+}
